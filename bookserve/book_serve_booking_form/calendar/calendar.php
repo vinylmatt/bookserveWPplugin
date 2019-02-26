@@ -7,7 +7,7 @@ define("CALENDAR_NUM_MONTHS",12);
 #loop through the months, display a calendar for each
 function vmbf_calendar($input_name, $caption, $input_id, $onchange, $num_months=1, $start_date="", $selected_date="") {
 	
-	echo "<div style=\"float:left;width:140px;padding-top:1px;\" >";
+	echo "<div style=\"float:left;padding-top:1px;\" >";
 		vmbf_calendar_combos($input_name, $input_id, $selected_date, $onchange);
 	echo "</div>";
 		

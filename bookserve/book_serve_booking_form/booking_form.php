@@ -188,7 +188,7 @@ function vmbf_booking_form($property_id, $action, $bke_url, $lang, $show_departu
 			</div>
 
 
-			<div style="clear:left;height:80px;" >
+			<div style="clear:left;" >
 
 				<div id="vmbf_booking_form_terms_and_conditions_row" >
 					<?php
@@ -214,6 +214,8 @@ function vmbf_booking_form($property_id, $action, $bke_url, $lang, $show_departu
 					?>
 				</div>
 
+				<div style="clear:both;" ></div>
+	
 			</div>
 
 			</form>

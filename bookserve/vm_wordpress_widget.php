@@ -34,7 +34,11 @@ class VMBFWordpressWidget extends WP_Widget {
 		echo $before_widget; // pre-widget code from theme
 
 		include "config.php";
-		include "book_serve_booking_form/booking_form.php";	
+		include "book_serve_booking_form/booking_form.php";
+		if (ICL_LANGUAGE_CODE != "")
+			$language_iso = ICL_LANGUAGE_CODE;
+		else
+			$language_iso = "en";	
 		vmbf_booking_form(1, "remote", $booking_engine_url, $language_iso, $show_departure, $show_number_nights, $num_nights_min, $num_nights_max, $show_rate_code, $show_flexible_check);
 
 		echo $after_widget; // post-widget code from theme
