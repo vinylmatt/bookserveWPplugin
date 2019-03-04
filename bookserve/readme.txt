@@ -2,8 +2,8 @@
 Contributors: bryanmceleney
 Tags: hotels, accommodations, availability, availability calendar, bed and breakfast, Booking, Booking calendar, booking form, booking system, bookings, calendar, hotel, meeting, online booking calendar, online reservation, Reservation, reservation plugin, rooms, specials, corporate specials, hidden specials
 Requires at least: 3.6
-Tested up to: 5.0.3
-Stable tag: 5.0.3
+Tested up to: 5.1
+Stable tag: 5.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,10 +23,10 @@ Visitors to your Wordpress website can check availability of hotel rooms, self c
 **Key Features**
 
 * Fully multilingual
+* Compatible with WPML
 * Accept bookings directly
 * Let customers manage their bookings.
-* Instant Google Analytics Ecommerce 
-* Integration. Just add ID. Easy to export bookings and other data to CSV
+* Instant Google Analytics Ecommerce Integration. Just add ID. Easy to export bookings and other data to CSV
 * Customise colours and fonts
 * Make any special offer.
 * SSL secured 
@@ -76,7 +76,7 @@ Installation is complete!When the plugin is installed to your Wordpress site
 
 1. Sign Up to the BookServe service. There are Free, Standard and Full Support options
 1. Set the first date you want for the booking calendar in the plugin settings
-1. Set your language ISO) (en for English, FR for French)
+1. Set your language ISO (en for English, FR for French)
 1. Add in your Book-Serve URL. That's it!
 
 
@@ -113,10 +113,6 @@ yourproperty.book-serve.com/bke_admin/m
 = Can I do this all by myself? =
 
 Yes you can, in fact the people running the property are best placed to manage and market themselves.
-
-= Marketing! That sounds difficult. What's the TL;DR version? =
-
-Take some good pictures, find out what rates are like in your area and be realistic about where your property in location / quality / reputation. Price accordingly, and make some good offers. Consider using the 'billboard effect' by posting your unsold inventory to Expedia. Work on improving your reputation by treating your customers well. 
 
 
 == Screenshots ==
