@@ -4,7 +4,7 @@
    Plugin Name: BookServe Online Booking Calendar
    Plugin URI: https://book-serve.com
    Description: Book Serve Booking Form
-   Version: 2.0
+   Version: 2.1
    Author: Book Serve
    Author URI: https://book-serve.com
    Text Domain: vmbf_wordpress_plugin
