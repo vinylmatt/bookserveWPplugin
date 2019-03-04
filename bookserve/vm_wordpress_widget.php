@@ -7,6 +7,7 @@
    Version: 2.0
    Author: Book Serve
    Author URI: https://book-serve.com
+   Text Domain: vmbf_wordpress_plugin
    */
 
 include "utils.php";

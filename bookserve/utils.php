@@ -17,7 +17,9 @@ function vmbf_we_get_language_iso() {
 //just a stub
 function vmbf_we_localise_english($text, $iso="") {
 
-	return $text;
+	return __($text,'vmbf_wordpress_plugin');
+
+	//return $text;
 
 }
 

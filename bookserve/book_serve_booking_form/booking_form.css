@@ -12,13 +12,14 @@
 
 .vmbf_booking_form_terms_conditions_surround {
 	display:none;
-	position:absolute;
+	position:fixed;
 	z-index:100000;
 	width:550px;
 	background-color:#e5e5e5;
 	padding:2px;
 	opacity:0.97;filter:alpha(opacity=97);
-	top:20px;
+	top: 20%;
+    left: calc(50% - 225px);
 }
 
 .vmbf_booking_form_terms_conditions_inside {
@@ -156,6 +157,8 @@
 	height:auto;
 	border: 0px solid #ccc;
 	padding:3px;
+	margin:auto;
+	background-image:none !important;
 }
 
 
@@ -217,6 +220,7 @@
 	float:left;
 	background: #fff;
 	font-size:16px;
+	margin:auto;
 }
 
 #vmbf_booking_form_dates_flexible_input {
